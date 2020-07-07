@@ -9,7 +9,19 @@ public class TimeEntry {
     private LocalDate date;
     private int hours;
 
-    public TimeEntry(long timeEntryId, long projectId, long userId, LocalDate parse, int i) {
+    public TimeEntry(long timeEntryId, long projectId, long userId, LocalDate date, int hour) {
+        this.id=timeEntryId;
+        this.projectId=projectId;
+        this.userId=userId;
+        this.date=date;
+        this.hours=hour;
+    }
+
+    public TimeEntry(long projectId, long userId, LocalDate date, int hour) {
+        this.projectId=projectId;
+        this.userId=userId;
+        this.date=date;
+        this.hours=hour;
     }
 
     public long getId() {
