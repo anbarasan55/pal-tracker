@@ -116,7 +116,7 @@ public class TimeEntryControllerTest {
 
         //ResponseEntity response = controller.update(nonExistentTimeEntryId, new TimeEntry());
        // assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
-        assertThat(200).isEqualTo(200);
+
     }
 
     @Test
