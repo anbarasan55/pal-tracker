@@ -22,7 +22,7 @@ test {
 
 
 bootRun.environment([
-        "WELCOME_MESSAGE": "hello",
+        "WELCOME_MESSAGE": "Hello from Cloud Foundry",
 ])
 
 test.environment([
